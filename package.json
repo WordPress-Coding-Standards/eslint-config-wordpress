@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-wordpress",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for WordPress",
+  "license": "MIT",
+  "repository": "ntwb/eslint-config-wordpress",
+  "author": {
+    "name": "Stephen Edgar",
+    "email": "stephen@netweb.com.au",
+    "url": "netweb.com.au"
+    },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config-wordpress",
+    "JavaScript",
+    "jscs",
+    "jshint",
+    "lint",
+    "linter",
+    "linting",
+    "wordpress"
+  ],
+
+  "homepage": "https://github.com/ntwb/eslint-config-wordpress#readme"
+}
