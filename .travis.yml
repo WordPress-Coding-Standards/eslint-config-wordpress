@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+- '5'
+- '4'
+before_install:
+- npm i -g npm
+after_success: npm run coveralls
+notifications:
+  slack:
+    secure: dFskGYeF2Rmb0NVi2wIDjUup4E4gDFJYuY/M696un7OzvZtNkpV6Ey7v0VKnWT1IgWsQKMeqtj1B2/egp8J/ePLBm3CUMs4y3uF1g9meZ+MPMEVVYK9IyKIVi/mmH8PJYwuDYS0sFfdEvF+jD2dYM8KlpyZTL9XroAfNy/Qyjb+I5m3flU6bdWq58bOCcMS+ozM5ikyWKQ5weE6P5Q3pawccMAHd3K+P4egh6AU7e8jcCVXoreI3HyP/MNMm7OkZ5k+h8gajZ6pIHJM0HQGRBz+rEoDyBDs6Cfwm1kYoGkGjCh6hxbBf/OMJzzFWloKjDs4qltEw1sZ8XPK86uGRPpLLpiP3EYHMmNqKp4yj9KpUx5e4+HU7Uxme2epHdTWiFT+KJ/flx7TDHXTl51FXW/tmKZZXI0HNCPCP+qLDcx5YqWGQVwh+9pZ+ExZd7gID1RzEH1b76t3GFA9AHEXd6RzC0ydKwVQPQy/6ljg6SSlOaPmNkTzY1MY7GyQK2DXamMzsM7MxyRHHUFeF7MXPzwPsvJrH/grCkMCbUbY6s7xxWWjE+1muuZj3mJ3tb69adofx8IKVCXc5E4w5RNkH514z3iJ2khILuvSHNvwwcfVxzlK0nf7iH7CdmHsw92AEhbAPOtMqLzjuv0FAg+LvK3ewqcc1Ni8h0OcswxQ70tM=
