@@ -88,7 +88,7 @@ module.exports = {
 		'radix': 2,
 		'vars-on-top': 2,
 		'wrap-iife': 2,
-		'yoda': 2,
+		'yoda': [2, 'always'],
 		// Strict Mode
 		'strict': 2,
 		// Variables
