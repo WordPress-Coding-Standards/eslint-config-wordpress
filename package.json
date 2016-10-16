@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "release": "npmpub --verbose",
-    "test": "test"
+    "test": "ava --verbose"
   },
   "keywords": [
     "eslint",
@@ -35,6 +35,8 @@
     "wordpress"
   ],
   "devDependencies": {
+    "ava": "^0.16.0",
+    "is-plain-obj": "^1.1.0",
     "npmpub": "^3.1.0"
   }
 }
