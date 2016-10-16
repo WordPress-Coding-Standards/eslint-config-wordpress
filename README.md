@@ -1,9 +1,6 @@
 # eslint-config-wordpress
 
-> WordPress JavaScript Coding Standards shareable config for ESLint.
-
-WordPress JavaScript Coding Standards
-https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/
+[WordPress JavaScript Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/) shareable config for ESLint.
 
 ## Installation
 
