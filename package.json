@@ -4,11 +4,12 @@
   "description": "ESLint shareable config for WordPress",
   "license": "MIT",
   "repository": "ntwb/eslint-config-wordpress",
+  "homepage": "https://github.com/ntwb/eslint-config-wordpress#readme",
   "author": {
     "name": "Stephen Edgar",
     "email": "stephen@netweb.com.au",
-    "url": "netweb.com.au"
-    },
+    "url": "https://netweb.com.au"
+  },
   "engines": {
     "node": ">=4.2.1"
   },
@@ -31,7 +32,5 @@
     "linter",
     "linting",
     "wordpress"
-  ],
-
-  "homepage": "https://github.com/ntwb/eslint-config-wordpress#readme"
+  ]
 }
