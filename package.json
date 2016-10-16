@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wordpress",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ESLint shareable config for WordPress",
   "license": "MIT",
   "repository": "ntwb/eslint-config-wordpress",
