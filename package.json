@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "ESLint shareable config for WordPress",
   "license": "MIT",
-  "repository": "ntwb/eslint-config-wordpress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntwb/eslint-config-wordpress.git"
+  },
   "homepage": "https://github.com/ntwb/eslint-config-wordpress#readme",
   "author": {
     "name": "Stephen Edgar",
