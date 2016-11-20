@@ -38,6 +38,10 @@ module.exports = {
 		// Disallow declaration of variables that are not used in the code
 		'no-unused-vars': 'error',
 		// Stylistic Issues
+		// Disallow trailing whitespace at the end of lines
+		'no-trailing-spaces': 'error',
+		// Enforce variables to be declared either together or separately in functions
+		'one-var': ['error', 'always'],
 		// Specify whether backticks, double or single quotes should be used
 		'quotes': ['error', 'single']
 		// Legacy
