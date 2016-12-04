@@ -1,3 +1,7 @@
+# 1.1.0
+
+* feat: Add `one-var` and `no-trailing-spaces` rules.
+
 # 1.0.0
 
 * fix: Use `eslint-plugin-wordpress/jshint` shared configuration.
