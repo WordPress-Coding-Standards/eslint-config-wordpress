@@ -5,9 +5,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ntwb/eslint-config-wordpress.git"
+    "url": "https://github.com/WordPress-Coding-Standards/eslint-config-wordpress.git"
   },
-  "homepage": "https://github.com/ntwb/eslint-config-wordpress#readme",
+  "homepage": "https://github.com/WordPress-Coding-Standards/eslint-config-wordpress#readme",
   "author": {
     "name": "Stephen Edgar",
     "email": "stephen@netweb.com.au",
