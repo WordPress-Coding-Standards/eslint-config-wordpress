@@ -1,3 +1,7 @@
+# 2.0.0
+
+* fix: Use `eslint-plugin-wordpress/jssc` shared configuration.
+
 # 1.1.0
 
 * feat: Add `one-var` and `no-trailing-spaces` rules.
