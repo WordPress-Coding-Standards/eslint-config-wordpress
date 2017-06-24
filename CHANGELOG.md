@@ -1,3 +1,7 @@
+# HEAD
+
+* Chore: Bump minimum Node.js required version to `6.9.1`
+
 # 2.0.0
 
 * fix: Use `eslint-plugin-wordpress/jssc` shared configuration.
