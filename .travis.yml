@@ -5,10 +5,10 @@ node_js:
 - '6'
 cache:
   directories:
+    - $HOME/.npm
     - node_modules
 before_install:
-- npm update
-- npm prune
+  - npm install -g npm@latest
 after_success: npm run coveralls
 notifications:
   slack:
