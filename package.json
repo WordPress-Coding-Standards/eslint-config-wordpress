@@ -22,6 +22,8 @@
   ],
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint",
     "release": "npmpub --verbose",
     "test": "jest",
     "watch": "jest --watch"
@@ -40,6 +42,8 @@
     "wordpress"
   ],
   "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#a5fdd5177c747562ddc3b03e069fcbf131632490",
     "is-plain-obj": "^1.1.0",
     "jest": "^20.0.4",
     "npmpub": "^3.1.0"

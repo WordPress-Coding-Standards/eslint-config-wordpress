@@ -1,8 +1,8 @@
-"use strict"
+'use strict';
 
 module.exports = {
 	env: {
-		browser: true
+		browser: true,
 	},
 
 	globals: {
@@ -10,7 +10,7 @@ module.exports = {
 		Backbone: false,
 		jQuery: false,
 		JSON: false,
-		wp: false
+		wp: false,
 	},
 
 	rules: {
@@ -21,11 +21,11 @@ module.exports = {
 		'no-irregular-whitespace': 'error',
 		// Best Practices
 		// Specify curly brace conventions for all control statements
-		'curly': ['error', 'all'],
+		curly: ['error', 'all'],
 		// Encourages use of dot notation whenever possible
 		'dot-notation': ['error', {
 			allowKeywords: true,
-			allowPattern: '^[a-z]+(_[a-z]+)+$'
+			allowPattern: '^[a-z]+(_[a-z]+)+$',
 		}],
 		// Disallow use of multiline strings
 		'no-multi-str': 'error',
@@ -36,7 +36,7 @@ module.exports = {
 		// Require immediate function invocation to be wrapped in parentheses
 		'wrap-iife': 'error',
 		// Require or disallow Yoda conditions
-		'yoda': ['error', 'always'],
+		yoda: ['error', 'always'],
 		// Strict Mode
 		// Variables
 		// Stylistic Issues
@@ -45,8 +45,8 @@ module.exports = {
 		// Enforce one true brace style
 		'brace-style': 'error',
 		// Require camel case names
-		'camelcase': ['error', {
-			properties: 'always'
+		camelcase: ['error', {
+			properties: 'always',
 		}],
 		// Disallow or enforce trailing commas
 		'comma-dangle': ['error', 'never'],
@@ -59,7 +59,7 @@ module.exports = {
 		// Enforces spacing between keys and values in object literal properties
 		'key-spacing': ['error', {
 			beforeColon: false,
-			afterColon: true
+			afterColon: true,
 		}],
 		// Enforce spacing before and after keywords
 		'keyword-spacing': 'error',
@@ -67,7 +67,7 @@ module.exports = {
 		'linebreak-style': ['error', 'unix'],
 		// Enforces empty lines around comments
 		'lines-around-comment': ['error', {
-			beforeLineComment: true
+			beforeLineComment: true,
 		}],
 		// Disallow mixed spaces and tabs for indentation
 		'no-mixed-spaces-and-tabs': 'error',
@@ -80,9 +80,9 @@ module.exports = {
 		// Enforce operators to be placed before or after line breaks
 		'operator-linebreak': ['error', 'after'],
 		// Specify whether backticks, double or single quotes should be used
-		'quotes': ['error', 'single'],
+		quotes: ['error', 'single'],
 		// Require or disallow use of semicolons instead of ASI
-		'semi': ['error', 'always'],
+		semi: ['error', 'always'],
 		// Require or disallow space before blocks
 		'space-before-blocks': ['error', 'always'],
 		// Require or disallow space before function opening parenthesis
@@ -93,8 +93,8 @@ module.exports = {
 		'space-infix-ops': 'error',
 		// Require or disallow spaces before/after unary operators (words on by default, nonwords)
 		'space-unary-ops': ['error', {
-			overrides: {'!': true}
-		}]
+			overrides: {'!': true},
+		}],
 		// Legacy
-	}
+	},
 };
