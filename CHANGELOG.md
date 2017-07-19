@@ -1,6 +1,7 @@
 # HEAD
 
-* Chore: Bump minimum Node.js required version to `6.9.1`
+* chore: Bump minimum Node.js required version to `6.9.1`
+* chore: Switch from AVA to Jest for tests.
 
 # 2.0.0
 
