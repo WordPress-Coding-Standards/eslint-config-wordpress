@@ -21,6 +21,7 @@
     "index.js"
   ],
   "scripts": {
+    "dry-release": "npmpub --dry --verbose",
     "release": "npmpub --verbose",
     "test": "jest",
     "watch": "jest --watch"
