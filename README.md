@@ -12,10 +12,10 @@ $ npm install eslint-config-wordpress
 
 ## Usage
 
-Add this to your .eslintrc file:
+Add this to your `.eslintrc` file:
 
-```yaml
-extends: 'wordpress'
+```json
+"extends": "wordpress"
 ```
 
 ## [License](LICENSE)
