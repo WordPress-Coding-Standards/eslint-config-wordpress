@@ -45,7 +45,7 @@
     "eslint": "^4.2.0",
     "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#a5fdd5177c747562ddc3b03e069fcbf131632490",
     "is-plain-obj": "^1.1.0",
-    "jest": "^21.0.0",
+    "jest": "^22.0.0",
     "npmpub": "^3.1.0"
   },
   "jest": {
