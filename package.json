@@ -1,61 +1,61 @@
 {
-  "name": "eslint-config-wordpress",
-  "version": "2.0.0",
-  "description": "ESLint shareable config for WordPress",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WordPress-Coding-Standards/eslint-config-wordpress.git"
-  },
-  "homepage": "https://github.com/WordPress-Coding-Standards/eslint-config-wordpress#readme",
-  "author": {
-    "name": "Stephen Edgar",
-    "email": "stephen@netweb.com.au",
-    "url": "https://netweb.com.au"
-  },
-  "engines": {
-    "node": ">=6.9.1"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "dry-release": "npmpub --dry --verbose",
-    "lint": "eslint . --ignore-path .gitignore",
-    "pretest": "npm run lint",
-    "release": "npmpub --verbose",
-    "test": "jest",
-    "watch": "jest --watch"
-  },
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "eslint-config",
-    "eslint-config-wordpress",
-    "JavaScript",
-    "jscs",
-    "jshint",
-    "lint",
-    "linter",
-    "linting",
-    "wordpress"
-  ],
-  "devDependencies": {
-    "eslint": "^4.2.0",
-    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#a5fdd5177c747562ddc3b03e069fcbf131632490",
-    "is-plain-obj": "^1.1.0",
-    "jest": "^22.0.0",
-    "npmpub": "^3.1.0"
-  },
-  "jest": {
-    "roots": [
-      "__tests__"
-    ],
-    "testEnvironment": "node",
-    "testMatch": [
-      "<rootDir>/__tests__/*.js"
-    ],
-    "verbose": true
-  }
+	"name": "eslint-config-wordpress",
+	"version": "2.0.0",
+	"description": "ESLint shareable config for WordPress",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WordPress-Coding-Standards/eslint-config-wordpress.git"
+	},
+	"homepage": "https://github.com/WordPress-Coding-Standards/eslint-config-wordpress#readme",
+	"author": {
+		"name": "Stephen Edgar",
+		"email": "stephen@netweb.com.au",
+		"url": "https://netweb.com.au"
+	},
+	"engines": {
+		"node": ">=6.9.1"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"dry-release": "npmpub --dry --verbose",
+		"lint": "eslint . --ignore-path .gitignore",
+		"pretest": "npm run lint",
+		"release": "npmpub --verbose",
+		"test": "jest",
+		"watch": "jest --watch"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"eslint-config",
+		"eslint-config-wordpress",
+		"JavaScript",
+		"jscs",
+		"jshint",
+		"lint",
+		"linter",
+		"linting",
+		"wordpress"
+	],
+	"devDependencies": {
+		"eslint": "^4.2.0",
+		"eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#a5fdd5177c747562ddc3b03e069fcbf131632490",
+		"is-plain-obj": "^1.1.0",
+		"jest": "^22.0.0",
+		"npmpub": "^3.1.0"
+	},
+	"jest": {
+		"roots": [
+			"__tests__"
+		],
+		"testEnvironment": "node",
+		"testMatch": [
+			"<rootDir>/__tests__/*.js"
+		],
+		"verbose": true
+	}
 }
