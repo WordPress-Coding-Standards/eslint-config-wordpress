@@ -14,7 +14,7 @@
 		"url": "https://netweb.com.au"
 	},
 	"engines": {
-		"node": ">=6.9.1"
+		"node": ">=8.9.3"
 	},
 	"main": "index.js",
 	"files": [
