@@ -7,6 +7,8 @@ The guide assumes you are familiar with Terminals and basics of Terminal
 commands. Both Linux and OSX comes with their own terminal app which you can
 use. For Windows, it is recommended to use [Git Bash](https://git-scm.com/downloads).
 
+If you just want to see a setup, check [this repository](https://github.com/swashata/eslint-wordpress-test).
+
 ----------------
 ## Table of Contents
 
