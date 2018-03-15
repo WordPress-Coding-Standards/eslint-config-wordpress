@@ -3,7 +3,16 @@ This will guide you to use ESLint within [VSCode](https://code.visualstudio.com/
 
 --------
 
-[TOC]
+## Table of Contents
+
+* [1: Install ESLint VSCode Extension](#1-install-eslint-vscode-extension)
+* [2: Enable VSCode config](#2-enable-vscode-config)
+	* [2.1: Edit VSCode User Settings](#21-edit-vscode-user-settings)
+	* [2.2: Install Additional ESLint Plugins](#22-install-additional-eslint-plugins)
+	* [Bonus Tip: Using Multiple Config](#bonus-tip-using-multiple-config)
+* [3: Autofix js files on save](#3-autofix-js-files-on-save)
+	* [Bonus Tip: editor.formatOnSave](#bonus-tip-editorformatonsave)
+* [4: Bonus .eslintrc.js config file](#4-bonus-eslintrcjs-config-file)
 
 --------
 
@@ -17,7 +26,7 @@ The editor will prompt you to install the extension.
 Alternatively, you can also click on the Extension icon under VSCode and search
 for `ESLint` by the author `Dirk Baeumar`.
 
-[[ScreenShot]]
+![VSCode ESLint Extension](images/vscode-setup/01-vscode-eslint-ext.png)
 
 The best thing about this extension is that it will first try to use local `ESLint`
 and if not found, then it will try for globally installed `ESLint`.
@@ -97,7 +106,7 @@ First install the needed plugins as `devDependencies` with `npm`.
 npm install eslint-plugin-html eslint-plugin-react -D
 ```
 
-[[ScreenShot]]
+![ESLint Plugins](images/vscode-setup/02-eslint-plugins.png)
 
 Now enable the plugins inside your `.eslintrc.js` file or `package.json` file.
 
@@ -131,7 +140,7 @@ guide from the plugin page and enabled them too.
 Now when you code inside VSCode, the ESLint extension will show the errors
 right away.
 
-[[ScreenShot]]
+![VSCode Lint](images/vscode-setup/03-vscode-lint.png)
 
 #### Bonus Tip: Using Multiple Config
 
