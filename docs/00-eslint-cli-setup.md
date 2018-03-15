@@ -1,11 +1,29 @@
 This will guide you through installing ESLint and WordPress Config for your
 project and linting files through command line.
 
-> If you are familiar with `Node` and `NPM` skip to the [second part](#install-eslint-with-npm).
+> If you are familiar with `Node` and `NPM` skip to the [second part](#2-install-eslint-with-npm).
 
 The guide assumes you are familiar with Terminals and basics of Terminal
 commands. Both Linux and OSX comes with their own terminal app which you can
 use. For Windows, it is recommended to use [Git Bash](https://git-scm.com/downloads).
+
+----------------
+## Table of Contents
+
+* [1: Setup Node, NPM and package.json](#1-setup-node-npm-and-packagejson)
+	* [1.1: Install Nodejs and NPM](#11-install-nodejs-and-npm)
+	* [1.2: Initiate package.json](#12-initiate-packagejson)
+	* [Bonus Tip: SCM integration](#bonus-tip-scm-integration)
+* [2: Install ESLint with NPM](#2-install-eslint-with-npm)
+	* [2.1: Install Dependencies](#21-install-dependencies)
+	* [2.2: Initialize ESLint](#22-initialize-eslint)
+	* [Bonus Tip: Config inside package.json](#bonus-tip-config-inside-packagejson)
+	* [2.3: Tell ESLint to use WordPress Config](#23-tell-eslint-to-use-wordpress-config)
+* [3: Lint JavaScript files from CLI](#3-lint-javascript-files-from-cli)
+	* [Bonus Tip: Autofix Errors](#bonus-tip-autofix-errors)
+* [4: Creating NPM Scripts](#4-creating-npm-scripts)
+
+------------------
 
 ## 1: Setup Node, NPM and `package.json`
 
