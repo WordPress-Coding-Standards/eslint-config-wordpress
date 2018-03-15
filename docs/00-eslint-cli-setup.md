@@ -54,7 +54,7 @@ node --version
 npm --version
 ```
 
-[[ScreenShot]]
+![NPM Version](images/eslint-cli-setup/01-npm-version.png)
 
 to confirm you have the latest versions installed.
 
@@ -67,7 +67,7 @@ Now navigate to the directory where you would like to use ESLint and initialize
 npm init
 ```
 
-[[ScreenShot]]
+![NPM INIT](images/eslint-cli-setup/02-npm-init.png)
 
 This will ask you a bunch of questions, answer them accordingly and you will find
 a `package.json` file in your directory or git repository.
@@ -106,7 +106,7 @@ Install packages with NPM.
 npm install eslint eslint-config-wordpress -D
 ```
 
-[[ScreenShot]]
+![Install ESLint](images/eslint-cli-setup/03-npm-i-eslint.png)
 
 Now if you check your `package.json` file you will find the packages in your
 `devDependencies`.
@@ -133,7 +133,7 @@ From your Project Directory, run the command below.
 node_modules/.bin/eslint --init
 ```
 
-[[ScreenShot]]
+![ESLint INIT](images/eslint-cli-setup/04-eslint-init.png)
 
 This will create a `.eslintrc.js` or similar file in your project directory
 from where ESLint will find the configuration.
@@ -232,6 +232,8 @@ node_modules/.bin/eslint bad-code.js
 
 And see all the error and warning output.
 
+![ESLint badcode](images/eslint-cli-setup/05-eslint-bad-code.png)
+
 #### Bonus Tip: Autofix Errors
 
 Now if you want, you can autofix most of the bad codes with a `--fix` option.
@@ -265,7 +267,7 @@ file to include the following directives.
   },
 ```
 
-[[ScreenShot]]
+![npm run-script](images/eslint-cli-setup/06-npm-run-script-eslint.png)
 
 Now you can run
 
