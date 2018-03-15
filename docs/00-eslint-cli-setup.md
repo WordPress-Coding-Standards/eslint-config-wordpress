@@ -113,11 +113,11 @@ Now if you check your `package.json` file you will find the packages in your
 
 ```json
 {
-  ...
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-wordpress": "^2.0.0"
-  }
+	// ...
+	"devDependencies": {
+		"eslint": "^4.18.2",
+		"eslint-config-wordpress": "^2.0.0"
+	}
 }
 ```
 
@@ -146,42 +146,42 @@ file.
 
 ```json
 {
-  ...
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-wordpress": "^2.0.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es6": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    },
-      "sourceType": "module"
-    },
-    "rules": {
-      "indent": [
-        "error",
-        "tab"
-      ],
-      "linebreak-style": [
-        "error",
-        "unix"
-      ],
-      "quotes": [
-        "error",
-        "single"
-      ],
-      "semi": [
-        "error",
-        "always"
-      ]
-    }
-  }
+	// ...
+	"devDependencies": {
+		"eslint": "^4.18.2",
+		"eslint-config-wordpress": "^2.0.0"
+	},
+	"eslintConfig": {
+		"env": {
+			"browser": true,
+			"es6": true
+		},
+		"extends": "eslint:recommended",
+		"parserOptions": {
+			"ecmaFeatures": {
+				"experimentalObjectRestSpread": true
+			},
+			"sourceType": "module"
+		},
+		"rules": {
+			"indent": [
+				"error",
+				"tab"
+			],
+			"linebreak-style": [
+				"error",
+				"unix"
+			],
+			"quotes": [
+				"error",
+				"single"
+			],
+			"semi": [
+				"error",
+				"always"
+			]
+		}
+	}
 }
 ```
 
@@ -192,9 +192,9 @@ Now with everything installed, we need to tell ESLint specifically to use
 
 ```json
 {
-  ...
-  "extends": "eslint:recommended",
-  ...
+	// ...
+	"extends": "eslint:recommended",
+	// ...
 }
 ```
 
@@ -202,9 +202,9 @@ Change it to
 
 ```json
 {
-  ...
-  "extends": "wordpress",
-  ...
+	// ...
+	"extends": "wordpress",
+	// ...
 }
 ```
 
@@ -249,7 +249,7 @@ and see the code getting converted into
 ```js
 var myVar = [ 'I', 'am', 'array' ];
 for ( const i of myVar ) {
-	console.log( myVar[i]);
+	console.log( myVar[i] );
 }
 ```
 
@@ -260,11 +260,16 @@ Typing the commands can be a bit overwhelming. Luckily we have an option called
 file to include the following directives.
 
 ```json
-  "scripts": {
-    ...
-    "eslint": "eslint *.js",
-    "eslintfix": "eslint *.js --fix"
-  },
+{
+	// ...
+	"scripts": {
+	// ...
+		"eslint": "eslint *.js",
+		"eslintfix": "eslint *.js --fix"
+	},
+	// ...
+}
+
 ```
 
 ![npm run-script](images/eslint-cli-setup/06-npm-run-script-eslint.png)
