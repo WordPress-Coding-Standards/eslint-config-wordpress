@@ -95,6 +95,8 @@ module.exports = {
 		'space-unary-ops': ['error', {
 			overrides: {'!': true},
 		}],
+		// Disallow Undeclared Variables
+		'no-undef': 'error',
 		// Legacy
 	},
 };
