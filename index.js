@@ -36,7 +36,7 @@ module.exports = {
 		// Require immediate function invocation to be wrapped in parentheses
 		'wrap-iife': 'error',
 		// Require or disallow Yoda conditions
-		yoda: ['error', 'always'],
+		yoda: ['error', 'always', { onlyEquality: true }],
 		// Strict Mode
 		// Variables
 		// Stylistic Issues
