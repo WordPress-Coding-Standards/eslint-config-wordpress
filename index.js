@@ -56,6 +56,8 @@ module.exports = {
 		'comma-style': ['error', 'last'],
 		// Enforce newline at the end of file, with no multiple empty lines
 		'eol-last': 'error',
+		// Require strict equality checks
+		'eqeqeq': 'error',
 		// Enforces spacing between keys and values in object literal properties
 		'key-spacing': ['error', {
 			beforeColon: false,
