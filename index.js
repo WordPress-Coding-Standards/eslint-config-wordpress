@@ -46,7 +46,7 @@ module.exports = {
 		'brace-style': 'error',
 		// Require camel case names
 		camelcase: ['error', {
-			properties: 'always',
+			properties: 'never',
 		}],
 		// Disallow or enforce trailing commas
 		'comma-dangle': ['error', 'never'],
