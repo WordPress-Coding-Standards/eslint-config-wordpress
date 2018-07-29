@@ -50,7 +50,7 @@
 		"husky": "~0.14.3",
 		"is-plain-obj": "~1.1.0",
 		"jest": "~22.4.2",
-		"npmpub": "~4.0.1"
+		"npmpub": "~4.1.0"
 	},
 	"commitlint": {
 		"extends": [
