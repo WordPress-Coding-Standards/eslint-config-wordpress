@@ -6,13 +6,13 @@
 
 ## Requirements
 
-#### npm
+### npm
 
 If you do not have npm installed on your computer, [follow the instructions here](https://www.npmjs.com/get-npm).
 
 Next you will need to have npm set up for your JavaScript project. If you do not see a `package.json` file in your project's directory, run `npm init` within that directory and follow the prompts to create one. You do not need to answer all the questions if you do not plan to be publishing your project to npm, so accepting the defaults is usually fine. You can also edit the configuration later by editing your `package.json` file.
 
-#### eslint
+### eslint
 
 After that you will need to have eslint installed for your project. If it is not installed already, run the following command:
 
