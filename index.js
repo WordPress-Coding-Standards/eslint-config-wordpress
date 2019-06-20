@@ -63,8 +63,6 @@ module.exports = {
 		}],
 		// Enforce spacing before and after keywords
 		'keyword-spacing': 'error',
-		// Disallow mixed "LF" and "CRLF" as linebreaks
-		'linebreak-style': ['error', 'unix'],
 		// Enforces empty lines around comments
 		'lines-around-comment': ['error', {
 			beforeLineComment: true,
