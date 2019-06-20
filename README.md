@@ -2,7 +2,9 @@
 
 [WordPress JavaScript Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/) shareable config for ESLint.
 
-[![Build Status](https://api.travis-ci.org/WordPress-Coding-Standards/eslint-config-wordpress.svg?branch=master)](https://travis-ci.org/WordPress-Coding-Standards/eslint-config-wordpress) [![bitHound Overall Score](https://www.bithound.io/github/WordPress-Coding-Standards/eslint-config-wordpress/badges/score.svg)](https://www.bithound.io/github/WordPress-Coding-Standards/eslint-config-wordpress) [![NPM version](http://img.shields.io/npm/v/eslint-config-wordpress.svg)](https://www.npmjs.org/package/eslint-config-wordpress)
+## Deprecated
+
+This package has been deprecated, please use [@wordpress/eslint-plugin](https://www.npmjs.com/package/@wordpress/eslint-plugin) or [@wordpress/scripts](https://www.npmjs.com/package/@wordpress/scripts)
 
 ## Installation
 
